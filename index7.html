@@ -85,10 +85,21 @@
                   type="radio"
                   value="Female"
                   name="Gender">
-                <label for="Female">Female</label>
+                <label for="Female">Female</label><br><br>
 
+               
+               <label for="result">Result in 12<sup>th</sup>:</label><br>
+                    0%
+                    <input
+                        type="range"
+                        id="result"
+                        name="result"
+                        min="0"
+                        max="100"
+                        >
+                    100%                                   
+    
                 <p>Department:</p>
-
                 <input
                   type="Checkbox"
                   value="CSE"
@@ -134,7 +145,13 @@
 
                <label for="Address">Address:</label><br>
                <textarea id="Address" name="Address" rows="4" cols="20"></textarea><br><br>
-               
+
+               <label for="favcolor">Select Your favourite Color:</label>
+               <input
+                  type="color"
+                  id="favcolor"
+                  name="favcolor"
+                  value="#ff0000">
                
                <input type="Submit" value="Submit">
             </form>
