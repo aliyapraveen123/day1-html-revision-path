@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF_8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Feedback</title>
+    </head>
+    <body>
+        
+         <header>
+            <h1>Submit Feedback</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="phase1.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="gradestable.html">Grades Table</a></li>
+                <li><a href="Contact-us.html">Contact-Us</a></li> 
+            </ul>
+        </nav>
+
+       <form>
+           <label for="Name">Name:</label><br>
+           <input type="text" id="Name" name="Name" placeholder="enter your name" required><br><br>
+
+           <label for="Student-id">Student Id:</label><br>
+           <input type="text" id="Student-id" name="Student-id" placeholder="Enter the id" required><br><br>
+
+           <label for="Email">Email:</label><br>
+           <input type="email" id="Email" name="Email" placeholder="Enter your mail" required><br><br>
+
+           <label for="Course">Course Selection:</label><br>
+           <select name="Course" id="Course">
+             <option value="Web Development">Web Development</option>
+             <option value="Python Programming">Python Programming</option>
+             <option value="Database Management System (DBMS)">Database Management System (DBMS)</option>
+             <option value="Data Structures">Data Structures</option>
+             <option value="Computer Networks">Computer Networks</option>
+           </select><br><br>
+           
+
+           <p>Website Rating:</p>
+           <input type="radio" name="rating">1<br>
+           <input type="radio" name="rating">2<br>
+           <input type="radio" name="rating">3<br>
+           <input type="radio" name="rating">4<br>
+           <input type="radio" name="rating">5<br><br>  
+           
+           <label for="Feedback-message">Here you have to derop the Feedback message:</label><br>
+           <textarea id="Feedback-message"></textarea>
+          
+           <p>Terms and Conditions:</p>
+
+           <input type="checkbox" id="t&c">
+           <label for="t&c">I agree to the terms and conditions.</label><br>
+
+           <input type="checkbox" id="t&c">
+           <label for="t&c">I confirm that the information provided is correct.</label><br>
+
+           <input type="checkbox" id="t&c">
+           <label for="t&c">I would like to receive portal updates and notifications.</label><br>
+
+           <input type="checkbox" id="t&c">
+           <label for="t&c">I agree to submit my feedback for review.</label><br>
+
+           <input type="checkbox" id="t&c">
+           <label for="t&c">I recommend this portal to other students.</label><br><br>
+
+           <input type="submit" name="Submit" id="submit">
+           <label for="submit"></label><br><br>
+
+           <input type="reset" name="reset" id="reset">
+           <label for="reset"></label>
+
+       </form>
+    </body>
+</html>        
